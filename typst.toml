@@ -1,0 +1,15 @@
+[package]
+name = "cthesis"
+version = "0.1.0"
+entrypoint = "src/lib.typ"
+authors = [ "Elliot Markström Stenhammar" ]
+license = "MIT"
+description = "Unofficial thesis template for Chalmers University of Technology."
+category = [ "thesis" ]
+categories = [ "thesis" ]
+disciplines = [ ]
+
+[template]
+path = "src"
+entrypoint = "lib.typ"
+thumbnail = ""
