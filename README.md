@@ -21,13 +21,13 @@ The covers and front matter are based on Chalmers's [official LaTeX template](ht
 - Supports both English and Swedish via native `set text(lang: "en")` and `set text(lang: "sv")`
 - Supports both bachelor's and master's theses
 - Supports University of Gothenburg collaborations
-- Custom styled level 1 headers for chapters and appendicies 
-- Numeric numbering for chapters and alphabetical for appendicies (via `#show: appendix`)
+- Custom styled level 1 headers for chapters and appendices 
+- Numeric numbering for chapters and alphabetical for appendices (via `#show: appendix`)
 - A `caption` function for specifying separate figure captions in the list of figures and underneath figures.
 - Optional, recto-aligned page formatting for physical printing
 - Uses `Arial` font for cover pages if available, otherwise falls back to native `TeX Gyre Heros`. See [docs](https://typst.app/docs/reference/text/text/#parameters-font) for how to add custom fonts. 
 - Seperate numbering for figures and tables
-- Figures and tables in appendicies are prefixed by appendix numbering letter (eg. A1)
+- Figures and tables in appendices are prefixed by appendix numbering letter (eg. A1)
 - Figure and table numbering reset for each appendix
 - Embeds the title, author, abstract, keywords, and date into the file metadata
 
@@ -35,15 +35,15 @@ The covers and front matter are based on Chalmers's [official LaTeX template](ht
 To initialize the template, invoke the `cth-thesis` function via a show rule at the top of your document.
 
 ```typst
-    #show: cth-thesis.with(title: "Title of Thesis")
+    #show: cth-thesis.with(title: "Thesis Title")
 ```
 With configurations options (see next section) being passed as needed. All content following this declaration constitutes the thesis body, and level 1 headings (\=) mark Chapters, level 2 (\==) Sections and level 3 (\===) subsections.
 
-Finally, optionally invoke `appendix` as a show rule to mark the subsequent sections as appendicies and format them accordingly.  
+Finally, optionally invoke `appendix` as a show rule to mark the subsequent sections as appendices and format them accordingly.  
 ```typst
     #show: appendix
 ```
-Level 1 heading now mark appendicies instead of chapters. 
+Level 1 heading now mark appendices instead of chapters. 
 
 ## Configuration
 - `title`: The main title of the thesis;
