@@ -1,4 +1,4 @@
-#import "template/src/lib.typ": cth-thesis, appendix
+#import "../src/lib.typ": cth-thesis, appendix
 
 #show: cth-thesis.with(
   title: "Title of Thesis",
