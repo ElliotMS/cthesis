@@ -75,7 +75,7 @@
   )[ 
     #align(top + center)[
       #box(width: 100%, height: 2.85cm)[
-        #place(bottom + center, [#line(length: 118%, stroke: 1pt)])
+        #place(bottom + center, [#line(length: 100%, stroke: 1pt)])
         #align(left + horizon)[
           #small[
             #upper[*#department*] \
