@@ -66,7 +66,7 @@
   caption: "Example table"
 )
 
-#bibliography("references.bib")
+#bibliography("references.yaml")
 
 #show: appendix
 = Appendix
