@@ -49,7 +49,7 @@ To initialize the template, invoke the `cth-thesis` function via a show rule at 
 ```typst
 #show: cth-thesis.with(title: "Thesis Title")
 ```
-With configuration options (see next section) being passed as needed. All content following this declaration constitutes the thesis body, and level 1 headings (\=) mark Chapters, level 2 (\==) Sections and level 3 (\===) subsections.
+With configuration options (see next section) being passed as needed. All content following this declaration constitutes the thesis body, and level 1 headings (\=) mark chapters, level 2 (\==) sections and level 3 (\===) subsections.
 
 Finally, optionally invoke `appendix` as a show rule to mark the subsequent sections as appendices and format them accordingly.  
 ```typst
