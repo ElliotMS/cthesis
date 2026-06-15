@@ -1,9 +1,9 @@
-#import @preview/cthesis:0.1.0: cth-thesis, appendix, caption
+#import "@preview/cthesis:0.1.0": cth-thesis, appendix, caption
 
 #set text(lang: "en")
 
 #show: cth-thesis.with(
-  title: "Unofficial Thesis Template for Chalmers University of Technology ",
+  title: "Unofficial Thesis Template for Chalmers University of Technology",
   type: "master", // or "bachelor"
   gu: true,
   subtitle: "Optional Subtitle",
