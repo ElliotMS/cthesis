@@ -8,6 +8,7 @@ description = "Unofficial thesis template for Chalmers University of Technology.
 categories = [ "thesis" ]
 compiler = "0.13.0"
 repository = "https://github.com/ElliotMS/cthesis"
+keywords = ["chalmers", "CTH", "Chalmers Tekniska Högskola", "Chalmers University of Technology", "GU", "Göteborgs Universitet", "University of Gothenburg", "thesis", "bachelor", "master"]
 
 [template]
 path = "template"
