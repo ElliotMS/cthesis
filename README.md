@@ -53,11 +53,7 @@ typst init @preview/cthesis:0.1.0
 To initialize the template, invoke the `cth-thesis` function via a show rule at the top of your document:
 
 ```typst
-<<<<<<< HEAD
-#show: cth-thesis.with(title: "Title of Thesis")
-=======
-    #show: cth-thesis.with(title: "Thesis Title")
->>>>>>> b6a2eee554f74a0d6fcfabf20b6f513d8fc03571
+#show: cth-thesis.with(title: "Thesis Title")
 ```
 With configuration options (see next section) being passed as needed. All content following this declaration constitutes the thesis body, and level 1 headings (\=) mark Chapters, level 2 (\==) Sections and level 3 (\===) subsections.
 
