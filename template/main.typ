@@ -1,11 +1,14 @@
-#import "../src/lib.typ": cth-thesis, appendix
+//#import @preview/cthesis:0.1.0: cth-thesis, appendix, caption
+#import "../src/lib.typ": cth-thesis, appendix, caption
+
+#set text(lang: "en")
 
 #show: cth-thesis.with(
-  title: "Title of Thesis",
-  type: "bachelor", // or "master"
-  gu: false,
-  subtitle: "Optional subtitle",
-  authors: ("Author's name", ),
+  title: "Unofficial Typst thesis template for Chalmers University of Technology ",
+  type: "master", // or "bachelor"
+  gu: true,
+  subtitle: "Optional Subtitle",
+  authors: ("First Author", "Second Author"),
   program: "[program]",
   department: "[department]",
   abstracts: (
@@ -14,9 +17,9 @@
   ),
   keywords: ("chalmers", "typst", "thesis", "template"),
   supervisors: ("[supervisor's name]", ),
-  examiner: "[examiners's name]",
+  examiner: "[examiner's name]",
   advisor: "[optional advisor's name]",
-  co-examinor: "[optional co-examiner's name]",
+  co-examiner: "[optional co-examiner's name]",
   cover: (
     image: [],
     description: "[optional cover image]",
@@ -25,8 +28,8 @@
   acknowledgments: lorem(75),
   year: datetime.today().year(),
   abbreviations: (
-    "CTH" : "Chalmers Tekniska Högskola (Chalmers University of Technology)",
-    "GU": "Göteborgs Universitet (University of Gothenburg)",
+    "CTH" : "Chalmers Tekniska Högskola",
+    "GU": "Göteborgs Universitet",
   ),
   nomenclature: (
     "Category A": (
@@ -42,18 +45,29 @@
 )
 
 = Introduction
+#lorem(30)
 
-= Background
+== Figures
+#figure(
+  rect(width: 50%, height: 100pt, stroke: (dash: "dashed")),
+  caption: caption(
+    [Example figure with a long description and reference @ChalmersUniversityWebsite.], 
+    [Example figure with a short description.]
+  )
+)
 
-= Method
+== Tables
+#figure(
+  table(
+    columns: 2,
+    [*Column A*], [*Column B*],
+    [1], [#lorem(5)],
+    [2], [#lorem(6)],
+  ),
+  caption: "Example table"
+)
 
-= Results
-
-= Discussion
-
-= Conclusion
-
-// #bibliography("references.bib")
+#bibliography("references.bib")
 
 #show: appendix
-= Appendix Title
+= Appendix
