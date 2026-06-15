@@ -28,15 +28,9 @@ The covers and front matter are based on Chalmers's official LaTeX thesis templa
 - Numeric numbering for chapters and alphabetical for appendices (via `#show: appendix`)
 - A `caption` function for specifying separate figure captions in the list of figures and underneath figures.
 - Optional, recto-aligned page formatting for physical printing
-<<<<<<< HEAD
 - Uses `Arial` font for cover pages if available, otherwise falls back to `TeX Gyre Heros` (included in Typst web app). See [docs](https://typst.app/docs/reference/text/text/#parameters-font) for how to add custom fonts. 
 - Separate numbering for figures and tables
-- Figures and tables in appendices are prefixed by appendix numbering letter (e.g., A1)
-=======
-- Uses `Arial` font for cover pages if available, otherwise falls back to native `TeX Gyre Heros`. See [docs](https://typst.app/docs/reference/text/text/#parameters-font) for how to add custom fonts. 
-- Seperate numbering for figures and tables
-- Figures and tables in appendices are prefixed by appendix numbering letter (eg. A1)
->>>>>>> b6a2eee554f74a0d6fcfabf20b6f513d8fc03571
+- Figure and table numbering in appendices are prefixed by appendix numbering letter (e.g., A1)
 - Figure and table numbering reset for each appendix
 - Embeds the title, author, abstract, keywords, and date into the file metadata
 
