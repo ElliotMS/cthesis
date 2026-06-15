@@ -55,7 +55,7 @@ Finally, optionally invoke `appendix` as a show rule to mark the subsequent sect
 ```typst
 #show: appendix
 ```
-Level 1 heading now mark appendices instead of chapters. 
+Level 1 headings now mark appendices instead of chapters. 
 
 ## Configuration
 - `title`: The main title of the thesis
@@ -70,7 +70,7 @@ Level 1 heading now mark appendices instead of chapters.
 - `supervisors`: The supervisor(s) for the thesis
 - `examiner`: The primary examiner
 - `advisor`: The corporate or industrial advisor, if applicable
-- `co-examiner`: The co-examiner that helped grade the thesis
+- `co-examiner`: The co-examiner who helped grade the thesis
 - `cover`: A dictionary to add a cover image, accepting:
   - `image`: Content representing a cover image
   - `description`: Description of the cover image for the imprint page
