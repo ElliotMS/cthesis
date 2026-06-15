@@ -47,7 +47,7 @@
   supervisors: array,
   advisor: str,
   examiner: str,
-  co-examinor: str,
+  co-examiner: str,
   department: str,
   cover-description: str,
   year: int,
@@ -73,8 +73,8 @@
       [#tr("Rådgivare", "Advisor"): #advisor]
       linebreak()
     } 
-    #if co-examinor != "" { 
-      [#tr("Medrättande lärare", "Co-examiner"): #co-examinor]
+    #if co-examiner != "" { 
+      [#tr("Medrättande lärare", "Co-examiner"): #co-examiner]
       linebreak()
     } 
     #tr("Examinator", "Examiner"): #examiner

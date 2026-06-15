@@ -38,7 +38,7 @@
   supervisors: ("[supervisor's name]", ),
   examiner: "[examiners's name]",
   advisor: "",
-  co-examinor: "",
+  co-examiner: "",
   cover: (
     image: [],
     description: "",
@@ -158,7 +158,7 @@
     supervisors: supervisors,
     advisor: advisor,
     examiner: examiner,
-    co-examinor: co-examinor,
+    co-examiner: co-examiner,
     department: department,
     cover-description: cover.description,
     year: year,
